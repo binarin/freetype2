@@ -7,11 +7,9 @@ module FreeType.Error.Enumerations.Internal
 
 import           FreeType.Core.Types.Types
 
-#ifdef aarch64_HOST_ARCH
 import           Data.Word
-#else
 import           Data.Int
-#endif
+
 import           Foreign.Ptr
 
 #include "ft2build.h"
